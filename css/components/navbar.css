@@ -1,0 +1,30 @@
+navbar {
+  height: 70px;
+  background-color: var(--diesel);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  padding: 0 30px;
+}
+
+.nav-right,
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-right i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.search-bar input {
+  width: 400px;
+  height: 35px;
+}

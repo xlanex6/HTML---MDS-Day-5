@@ -1,0 +1,46 @@
+videos {
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+video-card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 300px;
+  margin: 0 4px 8px 4px;
+}
+
+video-long-card {
+  display: flex;
+}
+
+video-long-card i {
+  opacity: 0;
+}
+video-long-card:hover i {
+  opacity: 1;
+}
+
+.video {
+  background-color: green;
+  width: auto;
+  height: 150px;
+  position: relative;
+}
+
+.video .time {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+  padding: 2px 4px;
+  background-color: RGBA(15, 4, 4, 0.5);
+}
+
+.video-infos {
+  padding: 5px;
+}
+.video-infos p {
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+header {
+  height: 250px;
+  background-image: url('../../images/server.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.social {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  padding: 5px;
+  color: var(--white);
+  background-color: RGBA(15, 4, 4, 0.5);
+}
+
+.social i {
+  margin: 0 6px;
+}
+
+.social i.fa-facebook:hover {
+  color: #3b5998;
+}
+.social i.fa-twitter:hover {
+  color: #1da1f2;
+}
+.social i.fa-discord:hover {
+  color: #7289da;
+}

@@ -1,0 +1,52 @@
+main {
+  padding: 0 12%;
+  background-color: var(--scrapa);
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.main-title-left {
+  display: flex;
+  align-items: center;
+}
+.main-title-left h4 {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.main-title-left h6 {
+  font-weight: ligth;
+}
+
+.main-title img {
+  height: 50px;
+}
+
+.main-title-right {
+  display: flex;
+  align-items: center;
+}
+
+.main-title-right i {
+  margin-left: 20px;
+}
+.main-title-right i:hover {
+  transform: scale(1.4);
+}
+
+maim-menu {
+  display: flex;
+}
+
+maim-menu .main-menu-link {
+  padding: 15px 20px;
+  border-bottom: solid 3px transparent;
+}
+maim-menu .main-menu-link:hover {
+  color: var(--red);
+  border-bottom: solid 3px var(--red);
+}

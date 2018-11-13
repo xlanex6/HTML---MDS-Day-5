@@ -1,0 +1,10 @@
+.btn-rounded {
+  border-radius: 4px;
+  background-color: lightgray;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.btn-rounded:hover {
+  opacity: 0.7;
+}
